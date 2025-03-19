@@ -317,3 +317,9 @@ body, h1, h2, h3, p, nav a, #countdown div, .btn {
   color: #A67C52; /* Marrone estratto */
 }
 
+.small-icon {
+  display: block;  /* Ensures it appears on a new line */
+  margin: 10px auto; /* Centers the image */
+  width: 50px; /* Adjust size */
+  height: auto; /* Maintain aspect ratio */
+}
