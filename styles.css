@@ -65,7 +65,7 @@ nav a:hover {
 }
 
 h1 {
-  font-size: 6em;
+  font-size: 4em;
   font-weight: 400;
   letter-spacing: 4px;
   margin-bottom: -150px; /* Spazio tra il titolo e il countdown */
@@ -74,7 +74,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-weight: 300;
   color: #333;
   letter-spacing: 2px;
@@ -212,7 +212,7 @@ form input[type="text"] {
 
   /* Titoli nella pagina Programma del Giorno */
   .container h2 {
-    font-size: 1.5em; /* Maggiore leggibilità */
+    font-size: 1.2em; /* Maggiore leggibilità */
     margin-bottom: 10px;
   }
 
@@ -230,7 +230,7 @@ form input[type="text"] {
 
   /* Testo "Ci Sarai?" nella pagina RSVP */
   .container h2 {
-    font-size: 2em; /* Più leggibile su mobile */
+    font-size: 1.2em; /* Più leggibile su mobile */
   }
 
   /* Pulsanti "Sì" e "No" nel RSVP */
@@ -289,7 +289,7 @@ form input[type="text"] {
 }
   
 .block h2 {
-  font-size: 2em;
+  font-size: 1.2em;
   margin-bottom: 15px;
 }
 
