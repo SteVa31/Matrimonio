@@ -160,6 +160,7 @@ transition: opacity 0.3s
 
 #rsvpForm .btn:hover {
   opacity: 0.8;
+  background-color: #f4cbcb
 }
 
 
