@@ -9,7 +9,7 @@ html, body {
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: #ffffff;
-  color: #222; /* Testo sempre visibile */
+  color: #A67C52; /* Testo sempre visibile */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,7 +27,7 @@ body {
   font-size: 1.8em;
   font-weight: 400;
   letter-spacing: 6px;
-  color: #222;
+  color: #A67C52;
   display:flex
 }
 
@@ -41,7 +41,7 @@ nav {
 nav a {
   margin: 0 12px;
   font-size: 0.9em;
-  color: #666;
+  color: #A67C52;
   letter-spacing: 2px;
   text-decoration: none;
   text-transform: uppercase;
@@ -50,7 +50,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #000;
+  color: #f4cbcb;
 }
 
 .container {
@@ -69,21 +69,21 @@ h1 {
   font-weight: 400;
   letter-spacing: 4px;
   margin-bottom: -150px; /* Spazio tra il titolo e il countdown */
-  color: #222;
+  color: #A67C52;
   display:flex
 }
 
 h2 {
   font-size: 1em;
   font-weight: 300;
-  color: #333;
+  color: #A67C52;
   letter-spacing: 2px;
 }
 
 p {
   font-size: 1.1em;
   font-weight: 300;
-  color: #555;
+  color: #A67C52;
   line-height: 1.5;
 }
 
@@ -97,7 +97,7 @@ p {
 
 #countdown div {
   padding: 12px;
-  color: #333;
+  color: #A67C52;
   border-radius: 5px;
   width: 90px;
   font-weight: 400;
@@ -126,13 +126,13 @@ p {
 
 #rsvpForm input[type="text"]::placeholder {
   font-size: 1em; /* Aumenta la grandezza del testo nel placeholder */
-  color: #888; /* Cambia colore per renderlo più visibile */
+  color: #A67C52; /* Cambia colore per renderlo più visibile */
 }
 
 .btn {
   padding: 12px 24px;
   font-size: 1.2em;
-  border: 2px solid black;
+  border: 2px solid rgb(255, 255, 255);
   cursor: pointer;
   transition: 0.3s;
 }
@@ -151,11 +151,12 @@ p {
   padding: 10px 0; /* Allinea verticalmente il testo */
   border-radius: 8px; /* Smussa gli angoli */
   background-color: #ffffff; /* Colore pesca chiaro */
-  color: #222; /* Testo scuro per contrasto */
-  border: 2px solid #0e0a0a; /* Bordo leggermente più scuro */
-}  cursor: pointer;
-  transition: opacity 0.3s;
+  color: #A67C52; /* Testo scuro per contrasto */
+  border: none; /*2px solid #ffffff;*/ /* Bordo leggermente più scuro */
+ cursor: pointer;
+transition: opacity 0.3s
 }
+
 
 #rsvpForm .btn:hover {
   opacity: 0.8;
@@ -168,7 +169,7 @@ form input[type="text"] {
   margin-top: 15px;
   text-align: center;
   border-radius: 5px;
-  border: 1px solid #ccc;
+  border: 1px solid #A67C52;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -183,7 +184,7 @@ form input[type="text"] {
 }
 
 .preferences input[type="checkbox"] {
-  accent-color: #222;
+  accent-color: #A67C52;
 }
 
 /* Rimuove tutti i riquadri */
@@ -272,7 +273,7 @@ form input[type="text"] {
 .block p {
   font-size: 1.1em;
   line-height: 1.5;
-  color: #444;
+  color: #A67C52;
   flex-grow: 1; /* Assicura che entrambi i paragrafi occupino lo stesso spazio */
 }
   
@@ -280,34 +281,34 @@ form input[type="text"] {
   margin-top: auto; /* Spinge il pulsante verso il basso per allinearlo */
   padding: 10px 20px;
   background-color: #ffffff; /* Pesca chiaro */
-  color: #ef9a9a;
+  color: #ffffff;
   border-radius: 5px;
   text-decoration: none;
   font-weight: 400;
   font-size: 0.9em;
   display: inline-block;
-  border: 2px solid #ffffff;
+  border: none /*2px solid #ffffff;*/
 }
 
 .block .btn:hover {
-  background-color: #e4a4a4;
+  background-color: #ffffff;
 }
- 
+
+.google-btn:hover {
+  background-color: #ffffff;
+}
+
 .google-btn {
   background-color: #ffffff; /* Pesca chiaro */
-  color: #d6cdcd;
-  border-radius: 5px;
+  color: #ffffff;
+  border-radius: none;
   text-decoration: none;
   font-weight: 500;
   font-size: 0.6em;
   padding: 3px 10px;
-  border: 2px solid #e29191;
+  border: none; /*2px solid #fcfcfc;*/
   display: inline-block;
   margin-top: 10px; /* Distanza dal testo */
-}
-
-.google-btn:hover {
-  background-color: #f5d3d3;
 }
 
 /* Imposta il colore per tutti i testi */
@@ -315,9 +316,3 @@ body, h1, h2, h3, p, nav a, #countdown div, .btn {
   color: #A67C52; /* Marrone estratto */
 }
 
-/* Mantieni i bordi neri per i bottoni */
-.btn {
-  background-color: white; /* Sfondo bianco */
-  border: 2px solid rgb(239, 171, 171); /* Bordo nero */
-  color: #A67C52; /* Testo marrone */
-}
