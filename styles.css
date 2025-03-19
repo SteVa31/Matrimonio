@@ -210,35 +210,11 @@ form input[type="text"] {
   }
 }
 
-  /* Titoli nella pagina Programma del Giorno */
-  .container h2 {
-    font-size: 1.8em; /* Maggiore leggibilità */
-    margin-bottom: 10px;
-  }
-
-  /* Testo "Ci sposiamo il 31 Luglio 2025" */
-  .container p {
-    font-size: 1.2em;
-    line-height: 1.5;
-  }
-
-  /* Pulsante "Cerca su Google" */
-  .google-btn {
-    font-size: 1em; /* Adatta il testo */
-    padding: 10px 14px; /* Leggermente più grande */
-  }
-
-  /* Testo "Ci Sarai?" nella pagina RSVP */
-  .container h2 {
-    font-size: 2em; /* Più leggibile su mobile */
-  }
-
   /* Pulsanti "Sì" e "No" nel RSVP */
   #rsvpForm .btn {
     font-size: 1.2em;
     padding: 12px 20px;
   }
-}
 
 
   #countdown div {
