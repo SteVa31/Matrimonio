@@ -81,7 +81,7 @@ h2 {
 }
 
 p {
-  font-size: 1.1em;
+  font-size: 1em;
   font-weight: 300;
   color: #A67C52;
   line-height: 1.5;
@@ -113,10 +113,10 @@ p {
 
 #rsvpForm input[type="text"] {
   width: 100%;
-  max-width: 300px; /* Limita la grandezza per evitare deformazioni */
-  height: 40px;
-  font-size: 1.1em;
-  padding: 10px;
+  max-width: 250px; /*larghezza*/ 
+  height: 35px; /*altezza*/ 
+  font-size: 1em;
+  padding: 8px; /*spazio interno*/ 
   border-radius: 8px;
   border: 2px solid #ccc;
   text-align: center;
@@ -131,7 +131,7 @@ p {
 
 .btn {
   padding: 12px 24px;
-  font-size: 1.2em;
+  font-size: 1em;
   border: 2px solid rgb(255, 255, 255);
   cursor: pointer;
   transition: 0.3s;
@@ -146,11 +146,11 @@ p {
 #rsvpForm .btn {
   width: 100px; /* Imposta la stessa larghezza per entrambi */
   height: 50px; /* Imposta la stessa altezza per entrambi */
-  font-size: 1.2em; /* Mantiene il testo leggibile */
+  font-size: 1em; /* Mantiene il testo leggibile */
   text-align: center;
   padding: 10px 0; /* Allinea verticalmente il testo */
   border-radius: 8px; /* Smussa gli angoli */
-  background-color: #ffffff; /* Colore pesca chiaro */
+  background-color: #ffffff; 
   color: #A67C52; /* Testo scuro per contrasto */
   border: none; /*2px solid #ffffff;*/ /* Bordo leggermente più scuro */
  cursor: pointer;
@@ -281,7 +281,7 @@ form input[type="text"] {
   margin-top: auto; /* Spinge il pulsante verso il basso per allinearlo */
   padding: 10px 20px;
   background-color: #ffffff; /* Pesca chiaro */
-  color: #ffffff;
+  color: #A67C52;
   border-radius: 5px;
   text-decoration: none;
   font-weight: 400;
@@ -291,7 +291,7 @@ form input[type="text"] {
 }
 
 .block .btn:hover {
-  background-color: #ffffff;
+  background-color: #f4cbcb;
 }
 
 .google-btn:hover {
