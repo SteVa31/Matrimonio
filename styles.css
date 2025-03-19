@@ -138,7 +138,7 @@ p {
 }
 
 .btn:hover {
-  background-color: #ddd;
+  background-color: #f4cbcb;
 }
 
 
@@ -295,7 +295,7 @@ form input[type="text"] {
 }
 
 .google-btn:hover {
-  background-color: #ffffff;
+  background-color: #f4cbcb;
 }
 
 .google-btn {
