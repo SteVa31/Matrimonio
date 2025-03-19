@@ -74,7 +74,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: 300;
   color: #333;
   letter-spacing: 2px;
@@ -212,7 +212,7 @@ form input[type="text"] {
 
   /* Titoli nella pagina Programma del Giorno */
   .container h2 {
-    font-size: 1.8em; /* Maggiore leggibilità */
+    font-size: 1.5em; /* Maggiore leggibilità */
     margin-bottom: 10px;
   }
 
@@ -238,7 +238,7 @@ form input[type="text"] {
     font-size: 1.2em;
     padding: 12px 20px;
   }
-}
+
 
 
   #countdown div {
