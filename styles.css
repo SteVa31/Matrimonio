@@ -145,10 +145,10 @@ p {
 
 #rsvpForm .btn {
   width: 80px; /* Imposta la stessa larghezza per entrambi */
-  height: 40px; /* Imposta la stessa altezza per entrambi */
+  height: 30px; /* Imposta la stessa altezza per entrambi */
   font-size: 0.9em; /* Mantiene il testo leggibile */
   text-align: center;
-  padding: 6px 12px; /* Allinea verticalmente il testo */
+  padding: 6px 0; /* Allinea verticalmente il testo */
   border-radius: 6px; /* Smussa gli angoli */
   background-color: #ffffff; 
   color: #A67C52; /* Testo scuro per contrasto */
