@@ -204,7 +204,7 @@ form input[type="text"] {
   h1 {
       display: block;
       text-align: center;
-      font-size: 2.5em; /* Riduci leggermente la dimensione per mobile */
+      font-size: 1.5em; /* Riduci leggermente la dimensione per mobile */
       line-height: 1.3; /* Aggiunge spaziatura */
       white-space: pre-line; /* Forza l'andata a capo */
   }
