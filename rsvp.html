@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSVP</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="logo">S & V</div>
+    <nav>
+        <a href="index.html">HOME</a>
+        <a href="programma.html">PROGRAMMA DEL GIORNO</a>
+        <a href="rsvp.html">RSVP</a>
+        <a href="orizzonti_radici.html">ORIZZONTI E RADICI</a>
+    </nav>
+
+    <div class="container">
+        <h2>Ci sarai?</h2>
+
+        <form id="rsvpForm">
+            <div>
+                <button type="button" class="btn" onclick="setAttendance('Si')">Sì</button>
+                <button type="button" class="btn" onclick="setAttendance('No')">No</button>
+            </div>
+
+            <div>
+                <input type="text" id="nome" placeholder="Nome" required>
+                <input type="text" id="cognome" placeholder="Cognome" required>
+                <input type="email" id="email" placeholder="Inserisci la tua email" required style="display:none;">
+            </div>
+
+            <p class="preferences-text"><strong>Segnalaci le tue preferenze</strong></p>
+
+            <div class="preferences">
+                <label><input type="checkbox" value="Vegetariano"> Vegetariano</label>
+                <label><input type="checkbox" value="Vegano"> Vegano</label>
+                <label><input type="checkbox" value="Senza Lattosio"> Senza Lattosio</label>
+                <label><input type="checkbox" value="Celiaco"> Celiaco</label>
+            </div>
+
+            <button type="submit" class="btn">Invia</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
