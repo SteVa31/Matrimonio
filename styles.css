@@ -144,17 +144,17 @@ p {
 
 
 #rsvpForm .btn {
-  width: 100px; /* Imposta la stessa larghezza per entrambi */
-  height: 50px; /* Imposta la stessa altezza per entrambi */
-  font-size: 1em; /* Mantiene il testo leggibile */
+  width: 80px; /* Imposta la stessa larghezza per entrambi */
+  height: 40px; /* Imposta la stessa altezza per entrambi */
+  font-size: 0.9em; /* Mantiene il testo leggibile */
   text-align: center;
-  padding: 10px 0; /* Allinea verticalmente il testo */
-  border-radius: 8px; /* Smussa gli angoli */
+  padding: 6px 12px; /* Allinea verticalmente il testo */
+  border-radius: 6px; /* Smussa gli angoli */
   background-color: #ffffff; 
   color: #A67C52; /* Testo scuro per contrasto */
   border: none; /*2px solid #ffffff;*/ /* Bordo leggermente più scuro */
  cursor: pointer;
-transition: opacity 0.3s
+ transition: opacity 0.3s
 }
 
 
