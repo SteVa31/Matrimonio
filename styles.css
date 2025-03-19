@@ -210,14 +210,6 @@ form input[type="text"] {
   }
 }
 
-@media (max-width: 600px) {
-  /* Titolo principale "Stefano & Valeria" */
-  h1 {
-    font-size: 1em; /* Ridotto per mobile */
-    text-align: center;
-    margin-bottom: 20px;
-  }
-
   /* Titoli nella pagina Programma del Giorno */
   .container h2 {
     font-size: 1.8em; /* Maggiore leggibilità */
