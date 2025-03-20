@@ -155,11 +155,13 @@ p {
   transition: opacity 0.3s;
   align-items: center;
   justify-content: center;
-  display:flex
+  display:flex;
+  flex-direction: column;
 }
 
 #rsvpForm .btn[type="submit"] {
   margin-top: 20px; /* Aggiunge spazio sopra il bottone */
+  display: block
 }
 
 #rsvpForm .btn:hover {
@@ -180,6 +182,13 @@ form input[type="text"] {
 .preferences {
   margin-top: 15px;
   font-size: 0.9em;
+}
+
+@media (max-width: 600px) {
+  .preferences label {
+    width: 50%; /* Fa sì che ci siano solo 2 checkbox per riga */
+    text-align: left;
+  }
 }
 
 .preferences label {
