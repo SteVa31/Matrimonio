@@ -141,8 +141,6 @@ p {
   background-color: #f4cbcb;
 }
 
-
-
 #rsvpForm .btn {
   width: 80px; /* Imposta la stessa larghezza per entrambi */
   height: 40px; /* Imposta la stessa altezza per entrambi */
@@ -166,7 +164,6 @@ p {
   opacity: 0.8;
   background-color: #f4cbcb
 }
-
 
 form input[type="text"] {
   padding: 12px;
