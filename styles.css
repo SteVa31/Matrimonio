@@ -114,14 +114,19 @@ p {
 #rsvpForm input[type="text"] {
   width: 100%;
   max-width: 250px; /*larghezza*/ 
-  height: 35px; /*altezza*/ 
+  height: 50px; /*altezza*/ 
   font-size: 1em;
-  padding: 8px; /*spazio interno*/ 
+  padding: 0; /*8px; spazio interno*/ 
   border-radius: 8px;
   border: 2px solid #ccc;
+  /*text-align: center;*/
   text-align: center;
-  display: block;
-  margin: 10px auto; /* Centra gli input */
+  display: flex;
+  align-items: center;
+  /*display: block;*/
+  /*margin: 10px auto;  Centra gli input */
+  justify-content: center; /* Centra orizzontalmente */
+  line-height: 50px; /* Fa in modo che il testo sia centrato verticalmente */
 }
 
 #rsvpForm input[type="text"]::placeholder {
@@ -179,7 +184,7 @@ form input[type="text"] {
 
 .preferences {
   margin-top: 15px;
-  font-size: 0.7em;
+  font-size: 0.9em;
 }
 
 .preferences label {
