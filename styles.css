@@ -377,3 +377,9 @@ body, h1, h2, h3, p, nav a, #countdown div, .btn {
   width: 20px; /* Adjust size */
   height: auto; /* Maintain aspect ratio */
 }
+
+@media (min-width: 768px) { /* Solo per desktop */
+  .container {
+    margin-top: 40px; /* Aumenta il margine superiore per abbassare il contenuto */
+  }
+}
