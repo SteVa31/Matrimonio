@@ -111,23 +111,52 @@ p {
   margin: 10px 0; /* Maggiore spazio sopra e sotto */
 }
 
-#rsvpForm input[type="text"] {
-  width: 100%;
-  max-width: 250px; /*larghezza*/ 
-  height: 35px; /*altezza*/ 
+
+#rsvpForm input[type="text"],
+#rsvpForm input[type="email"] {
+  width: 80%; /* Imposta una larghezza minore per tutti gli input */
+  max-width: 230px; /* Rende più piccolo Nome e Cognome */
+  height: 30px; /* Riduce l'altezza di tutti tranne l'email */
   font-size: 1em;
-  padding: 8px; /*spazio interno*/ 
-  border-radius: 8px;
+  padding: 5px; /* Riduce il padding */
+  border-radius: 6px;
   border: 2px solid #ccc;
   text-align: center;
   display: block;
   margin: 10px auto; /* Centra gli input */
 }
 
-#rsvpForm input[type="text"]::placeholder {
-  font-size: 1em; /* Aumenta la grandezza del testo nel placeholder */
-  color: #A67C52; /* Cambia colore per renderlo più visibile */
+/* Aumenta leggermente la grandezza dell'email */
+#rsvpForm input[type="email"] {
+  width: 90%; /* Larghezza maggiore solo per l'email */
+  max-width: 260px; /* Più grande rispetto agli altri */
+  height: 35px; /* Altezza leggermente maggiore */
+  font-size: 1em;
 }
+
+/* Mantiene il placeholder centrato */
+#rsvpForm input::placeholder {
+  font-size: 1em;
+  color: #A67C52;
+  text-align: center;
+}
+
+/*#rsvpForm input[type="text"] {
+  width: 100%;
+  max-width: 250px; 
+  height: 35px; 
+  font-size: 1em;
+  padding: 8px; 
+  border-radius: 8px;
+  border: 2px solid #ccc;
+  text-align: center;
+  display: block;
+  margin: 10px auto; 
+}
+
+#rsvpForm input[type="text"]::placeholder {
+  font-size: 1em; 
+  color: #A67C52; */
 
 .btn {
   padding: 12px 24px;
@@ -212,7 +241,7 @@ form input[type="text"] {
   }
 
   .preferences label {
-    width: 60%; /* Fa sì che ci siano solo due checkbox per riga */
+    width: 70%; /* Fa sì che ci siano solo due checkbox per riga */
     text-align: center;
   }
 }
