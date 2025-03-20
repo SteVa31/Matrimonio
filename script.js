@@ -107,7 +107,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 }
 
                 messageContainer.innerText = "Ci vediamo al matrimonio!";
-                messageContainer.style.color = "#4CAF50";
+                messageContainer.style.color = "#A67C52";
                 messageContainer.style.fontSize = "1.5em";
                 messageContainer.style.marginTop = "20px";
 

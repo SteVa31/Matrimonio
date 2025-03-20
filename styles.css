@@ -206,13 +206,13 @@ form input[type="text"] {
 
 @media (max-width: 600px) {
   .preferences {
-    display: flex;
+    /*display: flex;*/
     flex-wrap: wrap;
     justify-content: center;
   }
 
   .preferences label {
-    width: 45%; /* Fa sì che ci siano solo due checkbox per riga */
+    width: 60%; /* Fa sì che ci siano solo due checkbox per riga */
     text-align: center;
   }
 }
