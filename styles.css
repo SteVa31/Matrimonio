@@ -159,10 +159,19 @@ p {
   flex-direction: column;
 }
 
-#rsvpForm .btn[type="submit"] {
-  margin-top: 20px; /* Aggiunge spazio sopra il bottone */
-  display: block
+
+#rsvpForm button[type="submit"] {
+  display: block;
+  margin: 20px auto; /* Centra il bottone */
+  width: 120px; /* Aggiungi una larghezza più definita */
+  height: 45px; /* Altezza per mantenere un buon design */
+  font-size: 1em; /* Rende il testo più leggibile */
+  text-align: center;
+  position: relative;
+  left: 0;
+  right: 0;
 }
+
 
 #rsvpForm .btn:hover {
   opacity: 0.8;
@@ -184,16 +193,28 @@ form input[type="text"] {
   font-size: 0.9em;
 }
 
-@media (max-width: 600px) {
+/*@media (max-width: 600px) {
   .preferences label {
-    width: 50%; /* Fa sì che ci siano solo 2 checkbox per riga */
+    width: 50%; 
     text-align: left;
   }
 }
-
 .preferences label {
   margin: 8px;
   font-weight: 300;
+}*/
+
+@media (max-width: 600px) {
+  .preferences {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .preferences label {
+    width: 45%; /* Fa sì che ci siano solo due checkbox per riga */
+    text-align: center;
+  }
 }
 
 .preferences input[type="checkbox"] {
