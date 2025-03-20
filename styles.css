@@ -154,6 +154,8 @@ p {
   cursor: pointer;
   transition: opacity 0.3s;
   align-items: center;
+  justify-content: center;
+  display:flex
 }
 
 #rsvpForm .btn[type="submit"] {
