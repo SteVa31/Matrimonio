@@ -114,19 +114,14 @@ p {
 #rsvpForm input[type="text"] {
   width: 100%;
   max-width: 250px; /*larghezza*/ 
-  height: 50px; /*altezza*/ 
+  height: 35px; /*altezza*/ 
   font-size: 1em;
-  padding: 0; /*8px; spazio interno*/ 
+  padding: 8px; /*spazio interno*/ 
   border-radius: 8px;
   border: 2px solid #ccc;
-  /*text-align: center;*/
   text-align: center;
-  display: flex;
-  align-items: center;
-  /*display: block;*/
-  /*margin: 10px auto;  Centra gli input */
-  justify-content: center; /* Centra orizzontalmente */
-  line-height: 50px; /* Fa in modo che il testo sia centrato verticalmente */
+  display: block;
+  margin: 10px auto; /* Centra gli input */
 }
 
 #rsvpForm input[type="text"]::placeholder {
@@ -158,8 +153,9 @@ p {
   background-color: #ffffff; 
   color: #A67C52; /* Testo scuro per contrasto */
   border: none; /*2px solid #ffffff;*/ /* Bordo leggermente più scuro */
- cursor: pointer;
- transition: opacity 0.3s
+  cursor: pointer;
+  transition: opacity 0.3s;
+  align-items: center;
 }
 
 #rsvpForm .btn[type="submit"] {
