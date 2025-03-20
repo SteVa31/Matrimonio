@@ -114,24 +114,16 @@ p {
 
 #rsvpForm input[type="text"],
 #rsvpForm input[type="email"] {
-  width: 80%; /* Imposta una larghezza minore per tutti gli input */
-  max-width: 230px; /* Rende più piccolo Nome e Cognome */
-  height: 30px; /* Riduce l'altezza di tutti tranne l'email */
-  font-size: 1em;
-  padding: 5px; /* Riduce il padding */
-  border-radius: 6px;
+  width: 75%; /* Imposta una larghezza minore per tutti gli input */
+  max-width: 200px; /* Rende più piccolo Nome e Cognome */
+  height: 28px; /* Riduce l'altezza di tutti tranne l'email */
+  font-size: 0.9em;
+  padding: 4px; /* Riduce il padding */
+  border-radius: 5px;
   border: 2px solid #ccc;
   text-align: center;
   display: block;
-  margin: 10px auto; /* Centra gli input */
-}
-
-/* Aumenta leggermente la grandezza dell'email */
-#rsvpForm input[type="email"] {
-  width: 90%; /* Larghezza maggiore solo per l'email */
-  max-width: 260px; /* Più grande rispetto agli altri */
-  height: 35px; /* Altezza leggermente maggiore */
-  font-size: 1em;
+  margin: 8px auto; /* Centra gli input */
 }
 
 /* Mantiene il placeholder centrato */
