@@ -444,6 +444,6 @@ body, h1, h2, h3, p, nav a, #countdown div, .btn {
 #home {
   background-image: url('images/steva.jpg');
   background-size: cover;
-  background-position: center 10px;
+  background-position: center 5px;
   background-repeat: no-repeat;
 }
