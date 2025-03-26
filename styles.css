@@ -13,7 +13,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start; /*prima era center*/
+  justify-content: center; /*prima era center*/
   min-height: 100vh;
   text-align: center;
   margin: 0;
