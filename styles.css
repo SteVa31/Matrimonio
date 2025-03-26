@@ -288,6 +288,12 @@ form input[type="text"] {
   }
 }
 
+@media (max-width: 600px) {
+  h2 {
+    font-size: 0.9em; /* 👈 invece di 0.7em, più leggibile su mobile */
+  }
+}
+
   /* Pulsanti "Sì" e "No" nel RSVP */
   #rsvpForm .btn {
     font-size: 1.2em;
