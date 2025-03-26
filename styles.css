@@ -290,7 +290,7 @@ form input[type="text"] {
 
 @media (max-width: 600px) {
   h2 {
-    font-size: 0.9em; /* 👈 invece di 0.7em, più leggibile su mobile */
+    font-size: 0.8em; /* 👈 invece di 0.7em, più leggibile su mobile */
     margin-top: 4px;       /* 👈 meno spazio sopra */
     margin-bottom: 4px;    /* 👈 meno spazio sotto */
     line-height: 1.2; 
@@ -444,6 +444,6 @@ body, h1, h2, h3, p, nav a, #countdown div, .btn {
 #home {
   background-image: url('images/steva.jpg');
   background-size: cover;
-  background-position: center 50px;
+  background-position: center 10px;
   background-repeat: no-repeat;
 }
