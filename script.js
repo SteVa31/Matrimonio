@@ -75,6 +75,11 @@ document.addEventListener("DOMContentLoaded", function () {
             let partecipazione = sessionStorage.getItem("attendance") || "Non specificato";
             let preferenze = Array.from(document.querySelectorAll(".preferences input:checked"))
                 .map(el => el.value).join(", ");
+            let altro = document.getElementById("altro").value.trim();
+            if (altro) {
+                preferenze += (preferenze ? ", " : "") + altro;
+            }
+            
 
             if (!nome || !cognome || !email || partecipazione === "Non specificato") {
                 alert("Inserisci tutti i dati: Nome, Cognome, Email e seleziona Sì o No!");
