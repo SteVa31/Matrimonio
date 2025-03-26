@@ -417,3 +417,7 @@ body, h1, h2, h3, p, nav a, #countdown div, .btn {
   font-size: 0.9em;
   color: #A67C52;
 }
+
+.domanda {
+  margin-top: 100px; /* Puoi aumentare questo valore */
+}
