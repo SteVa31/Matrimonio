@@ -247,30 +247,16 @@ form input[type="text"] {
   font-weight: 300;
 }*/
 
-/* da qui
 @media (max-width: 600px) {
   .preferences {
+    /*display: flex;*/
     flex-wrap: wrap;
     justify-content: center;
   }
 
   .preferences label {
-    width: 70%; 
+    width: 70%; /* Fa sì che ci siano solo due checkbox per riga */
     text-align: center;
-  }
-}*/
-
-@media (max-width: 600px) {
-  .preferences {
-    display: flex; /* assicurati che sia un flex container */
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .preferences label {
-    width: 45%; /* 👈 2 checkbox per riga */
-    margin-bottom: 10px;
-    text-align: left;
   }
 }
 
