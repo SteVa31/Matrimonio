@@ -53,11 +53,19 @@ nav a:hover {
   color: #f4cbcb;
 }
 
+/*.container {
+  width: 100%;
+  max-width: 950px;
+  padding: 30px;
+  box-sizing: border-box;
+}*/
+
 .container {
   width: 100%;
   max-width: 950px;
   padding: 30px;
   box-sizing: border-box;
+  margin-top: 100px; /* 👈 Aggiunto margine superiore */
 }
 
 .container h1 {
@@ -75,6 +83,13 @@ h1 {
 
 h2 {
   font-size: 0.7em;
+  font-weight: 300;
+  color: #A67C52;
+  letter-spacing: 2px;
+}
+
+h3 {
+  font-size: 1em;
   font-weight: 300;
   color: #A67C52;
   letter-spacing: 2px;
