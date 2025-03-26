@@ -421,3 +421,13 @@ body, h1, h2, h3, p, nav a, #countdown div, .btn {
 .domanda {
   margin-top: 80px; /* Puoi aumentare questo valore */
 }
+
+.mobile-break {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .mobile-break {
+    display: block;
+  }
+}
