@@ -357,7 +357,7 @@ form input[type="text"] {
 }
 
 .block p {
-  font-size: 1.1em;
+  font-size: 0.7em;
   line-height: 1.5;
   color: #d67a52;
   flex-grow: 1; /* Assicura che entrambi i paragrafi occupino lo stesso spazio */
