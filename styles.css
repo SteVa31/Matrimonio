@@ -193,7 +193,7 @@ p {
   text-align: center;
   padding: 6px 12px; /* Allinea verticalmente il testo */
   border-radius: 6px; /* Smussa gli angoli */
-  background-color: #f4cbcb; 
+  background-color: #ffffff; 
   color: #000000; /* Testo scuro per contrasto */
   border: none; /*2px solid #ffffff;*/ /* Bordo leggermente più scuro */
   cursor: pointer;
