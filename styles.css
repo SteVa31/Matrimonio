@@ -353,7 +353,8 @@ form input[type="text"] {
   
 .block h2 {
   font-size: 0.7em;
-  margin-bottom: 15px;
+  margin-top: 4px;       /* 👈 meno spazio sopra */
+  margin-bottom: 4px;    /* 👈 meno spazio sotto */
 }
 
 .block p {
