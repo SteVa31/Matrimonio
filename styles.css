@@ -293,8 +293,8 @@ form input[type="text"] {
 @media (max-width: 600px) {
   h2 {
     font-size: 1em; /* 👈 invece di 0.7em, più leggibile su mobile */
-    margin-top: 4px;       /* 👈 meno spazio sopra */
-    margin-bottom: 4px;    /* 👈 meno spazio sotto */
+    margin-top: 2px;       /* 👈 meno spazio sopra */
+    margin-bottom: 2px;    /* 👈 meno spazio sotto */
     line-height: 1.2; 
   }
 }
