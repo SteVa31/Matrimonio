@@ -92,7 +92,9 @@ h2 {
   font-size: 1em;
   font-weight: 300;
   color: #d67a52;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
+  margin-top: 4px;       /* 👈 meno spazio sopra */
+  margin-bottom: 4px;    /* 👈 meno spazio sotto */
 }
 
 h3 {
@@ -353,8 +355,7 @@ form input[type="text"] {
   
 .block h2 {
   font-size: 0.7em;
-  margin-top: 4px;       /* 👈 meno spazio sopra */
-  margin-bottom: 4px;    /* 👈 meno spazio sotto */
+  margin-bottom: 15px;
 }
 
 .block p {
