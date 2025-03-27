@@ -141,7 +141,7 @@ p {
   width: 75%; /* Imposta una larghezza minore per tutti gli input */
   max-width: 200px; /* Rende più piccolo Nome e Cognome */
   height: 28px; /* Riduce l'altezza di tutti tranne l'email */
-  font-size: 0.7em;
+  font-size: 0.8em;
   padding: 4px; /* Riduce il padding */
   border-radius: 5px;
   border: 2px solid #ccc;
@@ -152,7 +152,7 @@ p {
 
 /* Mantiene il placeholder centrato */
 #rsvpForm input::placeholder {
-  font-size: 0.7em;
+  font-size: 0.8em;
   color: #d67a52;
   text-align: center;
 }
@@ -176,7 +176,7 @@ p {
 
 .btn {
   padding: 12px 24px;
-  font-size: 0.7em;
+  font-size: 0.8em;
   border: 2px solid rgb(255, 255, 255);
   cursor: pointer;
   transition: 0.3s;
@@ -301,7 +301,7 @@ form input[type="text"] {
 
   /* Pulsanti "Sì" e "No" nel RSVP */
   #rsvpForm .btn {
-    font-size: 0.7em;
+    font-size: 0.8em;
     padding: 12px 20px;
   }
 
