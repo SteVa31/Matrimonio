@@ -490,7 +490,7 @@ body.not-home {
 #rsvpForm .btn,
 .preferences label,
 .altro input[type="text"] {
-  font-size: 0.9em;
+  font-size: 1em;
 }
 
 @media (max-width: 600px) {
@@ -499,7 +499,7 @@ body.not-home {
   #rsvpForm .btn,
   .preferences label,
   .altro input[type="text"] {
-    font-size: 0.8em;
+    font-size: 0.9em;
   }
 }
 
