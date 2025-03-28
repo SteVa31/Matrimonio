@@ -485,21 +485,34 @@ body.not-home {
 }
 
 
+#rsvpForm input[type="text"],
+#rsvpForm input[type="email"],
+#rsvpForm .btn,
+.preferences label,
+.altro input[type="text"] {
+  font-size: 0.9em;
+}
+
 @media (max-width: 600px) {
   #rsvpForm input[type="text"],
   #rsvpForm input[type="email"],
   #rsvpForm .btn,
   .preferences label,
   .altro input[type="text"] {
-    font-size: 0.9em;
+    font-size: 0.8em;
   }
 }
 
 
 #rsvpForm input[type="text"],
 #rsvpForm input[type="email"],
-#rsvpForm .btn,
-.preferences label,
 .altro input[type="text"] {
-  font-size: 1em;
+  transition: border-color 0.3s ease;
+}
+
+#rsvpForm input[type="text"]:focus,
+#rsvpForm input[type="email"]:focus,
+.altro input[type="text"]:focus {
+  outline: none;
+  border: 2px solid #b3725b;
 }
