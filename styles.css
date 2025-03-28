@@ -533,11 +533,11 @@ body.not-home {
 
 
 #rsvpForm .btn {
-  width: 79px;
+  width: 75px;
 }
 
 @media (max-width: 600px) {
   #rsvpForm .btn {
-    width: 75px;
+    width: 70px;
   }
 }
