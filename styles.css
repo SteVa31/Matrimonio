@@ -484,3 +484,11 @@ body.not-home {
   margin-top: 130px; /* Lo stesso margine che hai nelle altre pagine */
   padding-top: 0;
 }
+
+#home {
+  display: block;
+}
+
+.container {
+  padding-top: 200px; /* come già fai nelle altre */
+}
