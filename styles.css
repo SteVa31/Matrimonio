@@ -457,10 +457,18 @@ body, h1, h2, h3, p, nav a, #countdown div, .btn {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.7); /* Nero al 70% */
+  background-color: rgba(0, 0, 0, 0.7); /* Nero al 40% */
   z-index: 0;
 }
 
+/*#home > * {
+  position: relative;
+  z-index: 1;
+}*/
+#home .container, #home #countdown {
+  position: relative;
+  z-index: 1;
+}
 
 body.not-home {
   background-color: #F9F8F2;
