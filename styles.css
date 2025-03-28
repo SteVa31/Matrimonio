@@ -389,7 +389,7 @@ form input[type="text"] {
 .google-btn {
   background-color: #ffffff; /* Pesca chiaro */
   color: #ffffff;
-  border-radius: none;
+  border-radius: 5px;
   text-decoration: none;
   font-weight: 500;
   font-size: 0.6em;
@@ -469,4 +469,18 @@ body, h1, h2, h3, p, nav a, #countdown div, .btn {
 body.not-home {
   background-color: #F9F8F2;
   background-image: none; /* Se vuoi che non si veda la foto */
+}
+
+/*...*/
+#home .logo {
+  top: 20px; /* Già presente, ma lo confermiamo */
+}
+
+#home nav {
+  top: 70px; /* Come nelle altre pagine */
+}
+
+#home .container {
+  margin-top: 130px; /* Lo stesso margine che hai nelle altre pagine */
+  padding-top: 0;
 }
