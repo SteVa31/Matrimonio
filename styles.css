@@ -474,3 +474,10 @@ body.not-home {
   background-color: #F9F8F2;
   background-image: none; /* Se vuoi che non si veda la foto */
 }
+
+
+@media (max-width: 600px) {
+  .btn {
+    padding: 10px 18px;
+    font-size: 0.85em;
+  }}
