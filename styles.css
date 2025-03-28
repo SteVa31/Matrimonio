@@ -9,7 +9,7 @@ html, body {
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: #ffffff;
-  color: #D97C5A; /* Testo sempre visibile */
+  color: #b3725b; /* Testo sempre visibile */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,7 +27,7 @@ body {
   font-size: 1.8em;
   font-weight: 400;
   letter-spacing: 6px;
-  color: #D97C5A;
+  color: #b3725b;
   display:flex
 }
 
@@ -41,7 +41,7 @@ nav {
 nav a {
   margin: 0 12px;
   font-size: 0.7em;
-  color: #D97C5A;
+  color: #b3725b;
   letter-spacing: 2px;
   text-decoration: none;
   text-transform: uppercase;
@@ -84,14 +84,14 @@ h1 {
   font-weight: 400;
   letter-spacing: 4px;
   margin-bottom: -150px; /* Spazio tra il titolo e il countdown */
-  color: #D97C5A;
+  color: #b3725b;
   display:flex
 }
 
 h2 {
   font-size: 1em;
   font-weight: 300;
-  color: #D97C5A;
+  color: #b3725b;
   letter-spacing: 1px;
   margin-top: 4px;       /* 👈 meno spazio sopra */
   margin-bottom: 4px;    /* 👈 meno spazio sotto */
@@ -100,14 +100,14 @@ h2 {
 h3 {
   font-size: 1em;
   font-weight: 300;
-  color: #D97C5A;
+  color: #b3725b;
   letter-spacing: 2px;
 }
 
 p {
   font-size: 1em;
   font-weight: 300;
-  color: #D97C5A;
+  color: #b3725b;
   line-height: 1.5;
 }
 
@@ -121,7 +121,7 @@ p {
 
 #countdown div {
   padding: 12px;
-  color: #D97C5A;
+  color: #b3725b;
   border-radius: 5px;
   width: 90px;
   font-weight: 400;
@@ -153,7 +153,7 @@ p {
 /* Mantiene il placeholder centrato */
 #rsvpForm input::placeholder {
   font-size: 0.8em;
-  color: #D97C5A;
+  color: #b3725b;
   text-align: center;
 }
 
@@ -172,7 +172,7 @@ p {
 
 #rsvpForm input[type="text"]::placeholder {
   font-size: 1em; 
-  color: #D97C5A; */
+  color: #b3725b; */
 
 .btn {
   padding: 12px 24px;
@@ -194,7 +194,7 @@ p {
   padding: 6px 12px; /* Allinea verticalmente il testo */
   border-radius: 6px; /* Smussa gli angoli */
   background-color: #ffffff; 
-  color: #D97C5A; /* Testo scuro per contrasto */
+  color: #b3725b; /* Testo scuro per contrasto */
   border: none; /*2px solid #ffffff;*/ /* Bordo leggermente più scuro */
   cursor: pointer;
   transition: opacity 0.3s;
@@ -229,7 +229,7 @@ form input[type="text"] {
   margin-top: 15px;
   text-align: center;
   border-radius: 5px;
-  border: 1px solid #D97C5A;
+  border: 1px solid #b3725b;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -263,7 +263,7 @@ form input[type="text"] {
 }
 
 .preferences input[type="checkbox"] {
-  accent-color: #D97C5A;
+  accent-color: #b3725b;
 }
 
 /* Rimuove tutti i riquadri */
@@ -361,7 +361,7 @@ form input[type="text"] {
 .block p {
   font-size: 1em;
   line-height: 1.5;
-  color: #D97C5A;
+  color: #b3725b;
   flex-grow: 1; /* Assicura che entrambi i paragrafi occupino lo stesso spazio */
 }
   
@@ -369,7 +369,7 @@ form input[type="text"] {
   margin-top: auto; /* Spinge il pulsante verso il basso per allinearlo */
   padding: 10px 20px;
   background-color: #ffffff; /* Pesca chiaro */
-  color: #D97C5A;
+  color: #b3725b;
   border-radius: 5px;
   text-decoration: none;
   font-weight: 400;
@@ -401,7 +401,7 @@ form input[type="text"] {
 
 /* Imposta il colore per tutti i testi */
 body, h1, h2, h3, p, nav a, #countdown div, .btn {
-  color: #D97C5A; /* Marrone estratto */
+  color: #b3725b; /* Marrone estratto */
 }
 
 .small-icon {
@@ -423,10 +423,10 @@ body, h1, h2, h3, p, nav a, #countdown div, .btn {
   margin-top: 15px;
   text-align: center;
   border-radius: 5px;
-  border: 1px solid #D97C5A;
+  border: 1px solid #b3725b;
   font-family: 'Montserrat', sans-serif;
   font-size: 0.9em;
-  color: #D97C5A;
+  color: #b3725b;
 }
 
 .domanda {
@@ -467,6 +467,6 @@ body, h1, h2, h3, p, nav a, #countdown div, .btn {
 }
 
 body.not-home {
-  background-color: #F9F8F3;
+  background-color: #F9F8F2;
   background-image: none; /* Se vuoi che non si veda la foto */
 }
