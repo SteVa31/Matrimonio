@@ -449,3 +449,19 @@ body, h1, h2, h3, p, nav a, #countdown div, .btn {
   background-position: center 3px;
   background-repeat: no-repeat;
 }
+
+#home::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* Nero al 40% */
+  z-index: 0;
+}
+
+#home > * {
+  position: relative;
+  z-index: 1;
+}
