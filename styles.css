@@ -516,3 +516,28 @@ body.not-home {
   outline: none;
   border: 2px solid #b3725b;
 }
+
+/* Aggiunge bordo marrone ai bottoni Sì, No, Invia, Partecipa e Dono */
+#rsvpForm .btn,
+#rsvpForm button[type="submit"],
+.block .btn {
+  border: 2px solid #b3725b;
+}
+
+#rsvpForm .btn:hover,
+#rsvpForm button[type="submit"]:hover,
+.block .btn:hover {
+  background-color: #f4cbcb;
+  border-color: #b3725b;
+}
+
+
+#rsvpForm .btn {
+  width: 79px;
+}
+
+@media (max-width: 600px) {
+  #rsvpForm .btn {
+    width: 75px;
+  }
+}
