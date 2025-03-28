@@ -6,6 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Orizzonti e Radici</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Stile base del modal */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0,0,0,0.6);
+        }
+        .modal-content {
+            background-color: #fff;
+            margin: 15% auto;
+            padding: 20px;
+            border-radius: 12px;
+            width: 80%;
+            max-width: 400px;
+            text-align: center;
+        }
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            cursor: pointer;
+        }
+        .btn-copy {
+            background-color: #6a4c93;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+        .btn-copy:hover {
+            background-color: #5b3b82;
+        }
+    </style>
 </head>
 
 <body>
@@ -19,14 +60,14 @@
 
     <div class="container-flex">
         <div class="block">
-            <h2><strong> Viaggiare</strong></h2>
-            <img src="images/pollen-core.png" alt="Wedding Symbol" class="small-icon" >
+            <h2><strong>Viaggiare</strong></h2>
+            <img src="images/pollen-core.png" alt="Wedding Symbol" class="small-icon">
             <p>Ogni amore è un cammino,<br>
                 mano nella mano,<br>
                 verso nuove avventure.<br>
                 Passi intrecciati <br>
                 su terre vicine e lontane.</p>
-            <a class="btn" href="#">Partecipa al nostro viaggio</a>
+            <a class="btn" href="#" onclick="openModal()">Partecipa al nostro viaggio</a>
         </div>
 
         <div class="block">
@@ -37,11 +78,43 @@
                 luci,<br>
                 dettagli <br>
                 che ci accompagneranno nel tempo.</p>
-            <a class="btn" href="#">Un dono che profuma di casa</a>
             <a class="btn" href="https://www.amazon.it/wedding/registry/1CYPRX6Q0EPD5" target="_blank">Un dono che profuma di casa</a>
-
         </div>
     </div>
+
+    <!-- MODAL -->
+    <div id="ibanModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>Contribuisci al nostro viaggio</h2>
+            <p>Ecco il nostro IBAN:</p>
+            <div id="iban">IT60X0542811101000000123456</div>
+            <button class="btn-copy" onclick="copyIBAN()">📋 Copia IBAN</button>
+        </div>
+    </div>
+
+    <script>
+        function openModal() {
+            document.getElementById('ibanModal').style.display = 'block';
+        }
+        function closeModal() {
+            document.getElementById('ibanModal').style.display = 'none';
+        }
+        function copyIBAN() {
+            const iban = document.getElementById('iban').innerText;
+            navigator.clipboard.writeText(iban).then(() => {
+                alert("IBAN copiato negli appunti!");
+            });
+        }
+
+        // Chiudi cliccando fuori dal modal
+        window.onclick = function(event) {
+            const modal = document.getElementById('ibanModal');
+            if (event.target === modal) {
+                closeModal();
+            }
+        }
+    </script>
 </body>
 
 </html>
