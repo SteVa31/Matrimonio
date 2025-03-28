@@ -491,7 +491,7 @@ body.not-home {
   #rsvpForm .btn,
   .preferences label,
   .altro input[type="text"] {
-    font-size: 0.8em;
+    font-size: 0.9em;
   }
 }
 
@@ -501,5 +501,5 @@ body.not-home {
 #rsvpForm .btn,
 .preferences label,
 .altro input[type="text"] {
-  font-size: 0.9em;
+  font-size: 1em;
 }
