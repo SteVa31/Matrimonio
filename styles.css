@@ -265,7 +265,25 @@ form input[type="text"] {
 
 .preferences input[type="checkbox"] {
   accent-color: #b3725b;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #b3725b;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  border-radius: 4px;
+  position: relative;
 }
+
+.preferences input[type="checkbox"]:checked::after {
+  content: "✔";
+  color: #b3725b;
+  position: absolute;
+  font-size: 14px;
+  left: 2px;
+  top: -1px;
+}
+
 
 /* Rimuove tutti i riquadri */
 .container, #countdown {
