@@ -478,8 +478,28 @@ body.not-home {
 
 @media (max-width: 600px) {
   .block .btn {
-    width: 70%; /* Riduci la larghezza, puoi mettere anche 60% se vuoi più stretto */
+    width: 60%; /* Riduci la larghezza, puoi mettere anche 60% se vuoi più stretto */
     display: block;
     margin: 10px auto; /* Centra il bottone */
   }
+}
+
+
+@media (max-width: 600px) {
+  #rsvpForm input[type="text"],
+  #rsvpForm input[type="email"],
+  #rsvpForm .btn,
+  .preferences label,
+  .altro input[type="text"] {
+    font-size: 0.8em;
+  }
+}
+
+
+#rsvpForm input[type="text"],
+#rsvpForm input[type="email"],
+#rsvpForm .btn,
+.preferences label,
+.altro input[type="text"] {
+  font-size: 0.9em;
 }
