@@ -478,7 +478,7 @@ body.not-home {
 
 @media (max-width: 600px) {
   .block .btn {
-    width: 60%; /* Riduci la larghezza, puoi mettere anche 60% se vuoi più stretto */
+    width: 66%; /* Riduci la larghezza, puoi mettere anche 60% se vuoi più stretto */
     display: block;
     margin: 10px auto; /* Centra il bottone */
   }
