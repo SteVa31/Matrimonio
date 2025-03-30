@@ -573,6 +573,7 @@ body.not-home {
   flex-wrap: wrap;
   gap: 10px;
   margin-top: 20px;
+  justify-content: center
 }
 
 .parcheggi img {
@@ -589,6 +590,11 @@ body.not-home {
 
 @media (max-width: 700px) {
   .nota {
-    margin-top: 800px; /* o anche 450px se serve di più */
+    margin-top: 900px; /* o anche 450px se serve di più */
   }
+}
+
+.note-importanti a {
+  color: #b3725b;
+  text-decoration: underline; /* opzionale, se vuoi che resti sottolineato */
 }
