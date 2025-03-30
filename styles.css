@@ -589,6 +589,6 @@ body.not-home {
 
 @media (max-width: 600px) {
   .nota {
-    margin-top: 500px; /* o anche 450px se serve di più */
+    margin-top: 900px; /* o anche 450px se serve di più */
   }
 }
