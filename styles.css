@@ -576,9 +576,9 @@ body.not-home {
 }
 
 .parcheggi img {
-  /*width: 48%;
-  border-radius: 4px;*/
-  border: 1px solid #b3725b;
+  /*width: 48%;*/
+  border-radius: 4px;
+  border: 2px solid #b3725b;
 }
 
 /*nuova sezione only-------*/
