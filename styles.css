@@ -607,8 +607,8 @@ body.not-home {
 
 @media (min-width: 768px) {
   .note-importanti h2 {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 30%;
+    margin-right: 30%;
   }
 }
 
