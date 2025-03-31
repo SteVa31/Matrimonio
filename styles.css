@@ -611,3 +611,8 @@ body.not-home {
     margin-right: 15%;
   }
 }
+
+.title-wrapper {
+  display: flex;
+  justify-content: center;
+}
