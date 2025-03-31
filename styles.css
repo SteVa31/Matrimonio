@@ -585,12 +585,12 @@ body.not-home {
 /*nuova sezione only-------*/
 
 .nota {
-  margin-top: 400px; /* Puoi aumentare questo valore */
+  margin-top: 600px; /* Puoi aumentare questo valore */
 }
 
 @media (max-width: 700px) {
   .nota {
-    margin-top: 900px; /* o anche 450px se serve di più */
+    margin-top: 1000px; /* o anche 450px se serve di più */
   }
 }
 
