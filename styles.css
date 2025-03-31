@@ -598,3 +598,7 @@ body.not-home {
   color: #b3725b;
   text-decoration: underline; /* opzionale, se vuoi che resti sottolineato */
 }
+
+.note-importanti h2 {
+  text-align: justify;
+}
