@@ -586,6 +586,7 @@ body.not-home {
 
 .nota {
   margin-top: 600px; /* Puoi aumentare questo valore */
+  text-align: center;
 }
 
 @media (max-width: 700px) {
@@ -601,4 +602,11 @@ body.not-home {
 
 .note-importanti h2 {
   text-align: justify;
+}
+
+@media (min-width: 768px) {
+  .note-importanti h2 {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
 }
