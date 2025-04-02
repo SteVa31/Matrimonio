@@ -408,7 +408,7 @@ body, h1, h2, h3, p, nav a, #countdown div, .btn {
 .small-icon {
   display: block;  /* Ensures it appears on a new line */
   margin: 10px auto; /* Centers the image */
-  width: 40px; /* Adjust size */
+  width: 30px; /* Adjust size */
   height: auto; /* Maintain aspect ratio */
 }
 
