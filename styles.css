@@ -619,20 +619,18 @@ body.not-home {
   }
 }
 
-.note-importanti .subtitle {
-  text-align: center;
-}
-
 .title-wrapper {
   display: flex;
-  align-items: center;
   justify-content: center;
-  gap: 10px;
-  margin-top: 30px;
-  flex-wrap: wrap;
+}
+
+.note-importanti .subtitle {
+  text-align: center;
 }
 
 .logo-solaria {
   width: 80px;
   height: auto;
+  vertical-align: middle;
+  margin-left: 8px;
 }
