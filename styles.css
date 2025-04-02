@@ -659,3 +659,25 @@ body.not-home {
     margin-top: 1000px; /* o anche 450px se serve di più */
   }
 }
+
+/*font di contenuto di orizzonti e radici per mobile*/
+
+@media (max-width: 600px) {
+  body {
+    font-size: 0.9em;
+  }
+
+  .modal-content {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .btn-copy {
+    padding: 8px 16px;
+    font-size: 0.9em;
+  }
+
+  .btn {
+    font-size: 0.9em;
+  }
+}
