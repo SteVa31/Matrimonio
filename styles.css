@@ -687,3 +687,9 @@ body.not-home {
   color: white !important;
   border: 2px solid #b3725b !important;
 }
+
+#rsvpForm button[type="submit"].sent {
+  background-color: #b3725b;
+  color: white;
+  border: 2px solid #b3725b;
+}

@@ -132,6 +132,10 @@ document.addEventListener("DOMContentLoaded", function () {
                 /*sessionStorage.removeItem("attendance");
                 document.querySelectorAll('.btn').forEach(btn => btn.classList.remove('selected'));*/
                 emailInput.style.display = "none";
+                let submitBtn = document.querySelector('#rsvpForm button[type="submit"]');
+                if (submitBtn) {
+                    submitBtn.classList.add('sent');
+}
             }).catch(err => console.error("Errore nel fetch:", err));
         });
     }
