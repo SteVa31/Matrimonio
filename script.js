@@ -126,7 +126,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 // Nasconde il messaggio dopo 3 secondi
                 setTimeout(() => {
                     messageContainer.innerText = "";
-                }, 3000);
+                }, 30000);
 
                 document.getElementById("rsvpForm").reset();
                 /*sessionStorage.removeItem("attendance");
