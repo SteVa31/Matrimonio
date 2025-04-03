@@ -681,3 +681,9 @@ body.not-home {
     font-size: 0.9em;
   }
 }
+
+.btn.selected {
+  background-color: #b3725b !important; /* Marrone visibile */
+  color: white !important;
+  border: 2px solid #b3725b !important;
+}
