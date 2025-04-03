@@ -49,6 +49,13 @@ function setAttendance(choice) {
 // ✅ RSVP Form SOLO nella pagina RSVP (rsvp.html)
 document.addEventListener("DOMContentLoaded", function () {
     if (document.getElementById('rsvpForm')) {
+        let savedChoice = sessionStorage.getItem("attendance");
+        if (savedChoice) {
+            let selectedButton = document.querySelector(`button[onclick="setAttendance('${savedChoice}')"]`);
+            if (selectedButton) {
+                selectedButton.classList.add("selected");
+    }
+}
         let nomeInput = document.getElementById("nome");
         let cognomeInput = document.getElementById("cognome");
         let emailInput = document.getElementById("email");
@@ -122,8 +129,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 }, 3000);
 
                 document.getElementById("rsvpForm").reset();
-                sessionStorage.removeItem("attendance");
-                document.querySelectorAll('.btn').forEach(btn => btn.classList.remove('selected'));
+                /*sessionStorage.removeItem("attendance");
+                document.querySelectorAll('.btn').forEach(btn => btn.classList.remove('selected'));*/
                 emailInput.style.display = "none";
             }).catch(err => console.error("Errore nel fetch:", err));
         });
