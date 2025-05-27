@@ -652,6 +652,8 @@ body.not-home {
 @media (max-width: 700px) {
   .title-wrapper {
     margin-top: 850px; /* o anche 450px se serve di più */
+    margin-left:auto;
+    margin-right:auto;
   }
 }
 
