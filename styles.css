@@ -651,7 +651,7 @@ body.not-home {
 
 @media (max-width: 700px) {
   .title-wrapper {
-    margin-top: 800px; /* o anche 450px se serve di più */
+    margin-top: 850px; /* o anche 450px se serve di più */
   }
 }
 
@@ -725,3 +725,5 @@ body.not-home {
 @media (max-width:600px){
   .container-flex{ margin-top:10px; }  /* o il valore che vuoi */
 }
+
+/*title wrapper*/
