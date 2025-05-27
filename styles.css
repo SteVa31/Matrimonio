@@ -694,26 +694,25 @@ body.not-home {
   border: 2px solid #b3725b;
 }
 
-/* === Toast RSVP === */
+/* === Toast RSVP centrato === */
 #toastRSVP {
   position: fixed;
-  bottom: 32px;
-  left: 50%;
-  transform: translateX(-50%) translateY(40px); /* parte leggermente più in basso */
-  background: #A67C52;          /* stesso colore della palette */
+  top: 50%;                /* centratura verticale */
+  left: 50%;               /* centratura orizzontale */
+  transform: translate(-50%, -50%) scale(0.92);  /* parte leggermente più piccola */
+  background: #A67C52;
   color: #fff;
-  padding: 14px 24px;
-  border-radius: 8px;
+  padding: 14px 26px;
+  border-radius: 10px;
   font-size: 1.05rem;
-  box-shadow: 0 6px 20px rgba(0,0,0,.25);
+  box-shadow: 0 8px 24px rgba(0,0,0,.25);
   opacity: 0;
   pointer-events: none;
-  transition:
-      opacity .45s ease,
-      transform .45s ease;
+  transition: opacity .45s ease, transform .45s ease;
+  z-index: 1000;           /* davanti a tutto */
 }
 
 #toastRSVP.show {
   opacity: 1;
-  transform: translateX(-50%) translateY(0);   /* sale di 40 px */
+  transform: translate(-50%, -50%) scale(1);     /* zoom-in + fade-in */
 }
