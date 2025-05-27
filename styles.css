@@ -590,11 +590,6 @@ body.not-home {
   display: block;
 }
 
-@media (max-width: 700px) {
-  .nota {
-    margin-top: 1000px; /* o anche 450px se serve di più */
-  }
-}
 
 .note-importanti a {
   color: #b3725b;
@@ -719,4 +714,10 @@ body.not-home {
 
 @media (max-width:600px){
   .domanda{ margin-top:70px; }   /* o 0 se la vuoi subito sotto il logo */
+}
+
+@media (max-width: 600px) {
+  .nota {
+    margin-top: 70px; /* o anche 450px se serve di più */
+  }
 }
