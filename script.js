@@ -170,7 +170,7 @@ document.addEventListener("DOMContentLoaded", () => {
           // toast di conferma
           showToast(
             partecipazione === "Si"
-              ? "🎉 Grazie, ci vediamo al matrimonio!"
+              ? "-`♡´- Ci vediamo al matrimonio!"
               : "💌 Peccato, ci mancherai!"
           );
   
