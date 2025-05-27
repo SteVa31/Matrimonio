@@ -93,7 +93,7 @@ h2 {
   font-weight: 300;
   color: #b3725b;
   letter-spacing: 1px;
-  margin-top: 1px;       /* 👈 meno spazio sopra */
+  margin-top: 2px;       /* 👈 meno spazio sopra */
   margin-bottom: 4px;    /* 👈 meno spazio sotto */
 }
 
@@ -294,7 +294,7 @@ form input[type="text"] {
 @media (max-width: 600px) {
   h2 {
     font-size: 0.9em; /* 👈 invece di 0.7em, più leggibile su mobile */
-    margin-top: 2px;       /* 👈 meno spazio sopra */
+    margin-top: 1px;       /* 👈 meno spazio sopra */
     margin-bottom: 2px;    /* 👈 meno spazio sotto */
     line-height: 1.2; 
   }
