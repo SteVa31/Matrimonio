@@ -93,7 +93,7 @@ h2 {
   font-weight: 300;
   color: #b3725b;
   letter-spacing: 1px;
-  margin-top: 2px;       /* 👈 meno spazio sopra */
+  margin-top: 1px;       /* 👈 meno spazio sopra */
   margin-bottom: 4px;    /* 👈 meno spazio sotto */
 }
 
