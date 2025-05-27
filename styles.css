@@ -716,3 +716,7 @@ body.not-home {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);     /* zoom-in + fade-in */
 }
+
+@media (max-width:600px){
+  .domanda{ margin-top:40px; }   /* o 0 se la vuoi subito sotto il logo */
+}
