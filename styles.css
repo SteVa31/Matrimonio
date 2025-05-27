@@ -713,7 +713,7 @@ body.not-home {
 }
 
 @media (max-width:600px){
-  .domanda{ margin-top:90px; }   /* o 0 se la vuoi subito sotto il logo */
+  .domanda{ margin-top:100px; }   /* o 0 se la vuoi subito sotto il logo */
 }
 
 @media (max-width: 600px) {
