@@ -693,3 +693,27 @@ body.not-home {
   color: white;
   border: 2px solid #b3725b;
 }
+
+/* === Toast RSVP === */
+#toastRSVP {
+  position: fixed;
+  bottom: 32px;
+  left: 50%;
+  transform: translateX(-50%) translateY(40px); /* parte leggermente più in basso */
+  background: #A67C52;          /* stesso colore della palette */
+  color: #fff;
+  padding: 14px 24px;
+  border-radius: 8px;
+  font-size: 1.05rem;
+  box-shadow: 0 6px 20px rgba(0,0,0,.25);
+  opacity: 0;
+  pointer-events: none;
+  transition:
+      opacity .45s ease,
+      transform .45s ease;
+}
+
+#toastRSVP.show {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);   /* sale di 40 px */
+}
