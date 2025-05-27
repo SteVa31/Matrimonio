@@ -718,5 +718,5 @@ body.not-home {
 }
 
 @media (max-width:600px){
-  .domanda{ margin-top:40px; }   /* o 0 se la vuoi subito sotto il logo */
+  .domanda{ margin-top:70px; }   /* o 0 se la vuoi subito sotto il logo */
 }
